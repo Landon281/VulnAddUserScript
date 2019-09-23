@@ -1,5 +1,5 @@
 # VulnAddUserScript
-Vulnerable "innocent looking" script with the intention of being a SUID executable to perform a local linux privilege escalation via manipulation of PATH variable 
+Created as a part of an undergraduate research project at Stephen F. Austin State University to demonstrate a local linux privilege escalation technique. Vulnerable "innocent looking" script with the intention of being a SUID executable to perform a local linux privilege escalation via manipulation of PATH variable 
 - The vulnerable command is "mkdir" because the full path is not specified. This is generally bad practice, especially in SUID files with root as the owner
 
 two ways this script can be used to spawn a root shell:
